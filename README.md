@@ -27,7 +27,7 @@ We'll run a script in Cloud9 to perform the following:
 - Pull down and fork helm charts repo (https://github.com/ZSuiteTech/fintech_devcon_charts)
 
 ```
-git clone ZSuiteTech/fintech_devcon
+git clone https://github.com/ZSuiteTech/fintech_devcon.git
 cd fintech_devcon
 ./setup.sh
 ```
@@ -61,7 +61,7 @@ Example Output:
 1. Create s3 bucket from command prompt
    1.
       ```sh
-      YOUR_BUCKET_NAME=zstfdemo-ftdc21-${GH_USER,,}`
+      YOUR_BUCKET_NAME=zstfdemo-ftdc21-${GH_USER,,}
       ```
    
    2.
