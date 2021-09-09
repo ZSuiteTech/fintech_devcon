@@ -11,7 +11,12 @@
 
 ### Step 2 - Create Cloud9 Instance
 
-1. TBC
+1. On Event Page, press "AWS Console button"
+2. Click "Open AWS Console"
+3. Follow E-Love for setting up Cloud9 instance
+4. Click the blue copy button
+   ![image](https://user-images.githubusercontent.com/563397/132717130-23fe3463-ffb8-42ed-bc0c-3be24fa72ebf.png)
+5. Paste the text into the Cloud9 console and press Enter.
 
 ### Step 3 - Configure Cloud9
 
