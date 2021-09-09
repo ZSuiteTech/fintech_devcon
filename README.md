@@ -22,7 +22,7 @@ We'll run a script in Cloud9 to perform the following:
 - Pull down and fork helm charts repo (https://github.com/ZSuiteTech/fintech_devcon_charts)
 
 ```
-git clone ZSuiteTech/fintech_devcon
+git clone https://github.com/ZSuiteTech/fintech_devcon.git
 cd fintech_devcon
 ./setup.sh
 ```
