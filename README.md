@@ -92,7 +92,18 @@ Example Output:
    export KUBECONFIG=./kubeconfig_zsuite-devcon-<RANDOM>
    ```
 
-2. Test command via
+2. Run
+
+   ```sh
+   EKS_UTILS='aws-iam-authenticator'
+   curl --remote-name-all "https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.2/2021-07-05/bin/linux/amd64/$EKS_UTILS" &&
+       chmod +x $EKS_UTILS &&
+       mkdir -p $HOME/bin &&
+       cp $EKS_UTILS $HOME/bin/ &&
+       rm $EKS_UTILS
+    ```
+    
+3. Test command via
    
    ```sh
    kubectl get namespace
